@@ -1,0 +1,228 @@
+/* Header */
+html{
+    direction: rtl;
+}
+.header {
+    background-color: #D3A373;
+    padding: 0px 40px;
+    height: 60px;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@font-face {
+    font-family: 'VLAX B';
+    src:
+         url('/webfonts/alfont_com_ArbFONTS-VLAX-01.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo {
+    font-family: 'VLAX B', sans-serif;
+    font-size: 35px;
+    color: #9B6644;
+    padding-top: 5px;
+}
+.header .logo {
+    width: 50px;
+    height: 50px;
+}
+.header a{
+    text-decoration: none;
+}
+.header .menu {
+    margin-right: 100px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.header .menu li {
+    color: #9B6644;
+    font-size: 16px;
+}
+.header .menu li a{
+    text-decoration: none;
+    color: white;
+}
+.header .menu li:hover {
+    color: white;
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+}
+
+.add-quote {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+.add-quote .btn:hover{
+background-color:rgba(255, 255, 255,0);
+border: white solid 1px;
+color:white;
+}
+.profile-small {
+    width: 35px; 
+    height: 35px;
+    border-radius: 50%; 
+    border: 0px solid #9B6644;
+    object-fit: cover; 
+    cursor: pointer;
+}
+
+.add-quote .btn {
+    background-color: white;
+    color: #9B6644;
+    font-family: 'Cairo';
+    font-weight: bold;
+    font-size: 13px;
+    border: none;
+    padding: 0px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.add-quote .btn a{
+    text-decoration: none;
+    color:#9B6644;
+}
+.add-quote .btn .icon img {
+    width: 20px;
+    height: 20px;
+    padding-top: 7px;
+    margin: 0px 10px 0px 0px ;
+
+}
+
+
+/* Footer Styling */
+.footer {
+    margin-top: 70px;
+    background-color: #D9AE84; 
+    color: #fff;
+    padding: 40px 100px;
+    font-family: 'VLAX B', sans-serif;
+    direction: rtl; 
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Footer Column */
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+    text-align: right;
+}
+
+/* First Column Styling */
+.footer-logo {
+    font-size: 24px;
+    margin-bottom: 0px;
+    color: #9B6644;
+    margin-top: 0px;
+}
+
+.footer-description {
+    font-size: 15px;
+    font-family: 'Cairo';
+    line-height: 1.4;
+    margin-top: 0px;
+    
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* Second Column Styling */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.footer-links li {
+    margin-bottom: 3px;
+}
+
+.footer-links a {
+    color: #fff;
+    font-family: 'Cairo';
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Third Column Styling */
+.footer-contact-title {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-family: 'Cairo';
+    font-weight: lighter;
+}
+span{
+    color: #9B6644;
+    font-weight: bold;
+}
+
+.email-subscription {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #D9AE84; 
+    padding: 10px;
+    border-radius: 20px;
+    width: 60%; 
+}
+
+.email-input {
+    flex: 1; 
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 20px 10px 10px; 
+    border-radius: 20px;
+    color: #9B6644;
+    text-align: right;
+    background: white;
+}
+
+.email-submit {
+    position: absolute;
+    left: 17px; 
+    width: 30px;
+    height: 30px;
+    background-color: #9B6644; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    width: 16px;
+    height: 16px;
+}

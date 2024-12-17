@@ -1,0 +1,80 @@
+*{
+padding: 0;
+margin: 0;
+
+}
+body { 
+    background-color: #ffffff;  
+    margin: 0;  
+    padding: 0;  
+    font-family: 'Cairo';
+}  
+
+
+
+
+main {  
+    padding: 20px;  
+}  
+
+section {  
+    text-align: center;
+    margin-top: 40px ;  
+    margin-left: 40px;
+    margin-right: 270px;
+    background: #D3A373;  
+    padding: 60px 30px 40px 30px;  
+    border-radius: 2cap;  
+    height: 100px;
+    width: 900px;
+}
+section h5{
+    font-size: 20px;
+    color: white;
+}
+section p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+section i{
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+section ul li{
+    display: inline;
+    text-align: center;
+}
+
+.filter_option{
+    font-family: 'cairo';
+    font-size: 15px;
+    font-weight: 700;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    color:#9B6644;
+    margin-top:30px ;
+    margin-right: 10px;
+
+}
+
+.filter_btn{
+    font-family: 'cairo';
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: #ffffff;
+    background-color: #9B6644;
+    
+}
+
+.filter_quotes{
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 3cap;
+   
+}

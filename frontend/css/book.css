@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+  body{
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    
+   overflow: auto;
+    
+  }
+  .right_side{
+    float: right;
+    
+  }
+  .title1{
+    margin-top: 50x;
+    margin-right: 50px;
+    font-size: 40px;
+    color: #9B6644;
+
+  }
+  .title2{
+    margin-top: 50x;
+    margin-right: 50px;
+    font-size: 40px;
+    color: #9B6644;
+  }
+ 
+  .title2_p{
+font-size: 15px;
+width: 600px;
+margin-right: 50px;
+  }
+  /* .right_side p{
+    font-size: 30px;
+  } */
+
+
+  .quote{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #line1{
+    flex:1;
+    border-top: 3px solid #D3A373; 
+    margin-left:20px;
+    margin-right:20px;
+  
+  }
+  #line2{
+    flex: 1;
+    border:none;
+    border-top: 3px solid #D3A373;
+    margin-left:20px;
+    margin-right:20px;
+    
+    
+    
+  }
+  #quote-text{
+    font-size: 40px;
+    font-weight: bold;
+    color:#9B6644;
+    
+    
+    white-space: nowrap;
+    
+  }
+  
+  .left_side{
+    float: left;
+  }
+  #img-container{
+  width: 350px;  
+  height: 350px;
+  background-color: #D3A373;
+  
+ 
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 20px;
+  }
+  #img-container img{
+  
+   margin-top: 20px;
+   margin-right: 75px;
+ 
+    width: 200px;
+  height:300px;
+    
+  }
+  .download_link{
+    margin-top: 10px;
+    margin-right: 130px;
+  }
+  #download{
+    font-size:15px;
+
+  
+    float: right;
+   
+  }
+  #there{
+   margin-right: 5px;
+    font-size: 15px;
+   text-decoration: none;
+   font-weight: bold;
+    color:#9B6644;
+  
+  }
+  
+  .quotes{
+    margin-top: 20px;
+    padding: 20px 260px 20px 100px;
+  }
+  .quotes .card{
+    text-align: center;
+    margin-top: 50px;
+    width: 1000px;
+    height: 200px;
+    background-color: #D3A373;
+    color: white;
+    font-size: 20px;
+    padding: 50px;
+    border-radius: 15px;
+  }
+  .quotes .card .icons{
+    margin-left: 40px;
+  }
+  .quotes .card .icons i{
+    color:#9B6644;
+    font-size: 25px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }

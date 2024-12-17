@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <!-- Link to the Cairo font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/signup.css">
+    <link rel="stylesheet" href="/css/all.css">
+</head>
+<body>
+    <div class="main-container">
+       
+        <div class="container">
+            <h2 class="login-logo">اقتبس</h2>
+            <h2 class="login-heading">إنشاء حساب</h2>
+            <form>
+                <div class="form-group form-row">
+                    <input type="text" id="first-name" name="first-name" placeholder="الاسم الاول" required>
+                    <input type="text" id="last-name" name="last-name" placeholder="الاسم الاخير" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="username" name="username" placeholder="ادخل بريدك الإلكتروني" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" placeholder="ادخل كلمة المرور" required>
+                </div>
+                <div class="form-group additional-options">
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">أوافق علي الشروط و سياسة الخصوصية</label>
+                    </div>
+                </div>
+                <button type="submit"><a href="/pages/home.html">انشئ حساب</a></button>
+            </form>
+                <div class="social-icons">
+                    <p>او الاستمرار مع</p>
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+           
+            <div class="signup-prompt">
+                <p>لديك حساب بالفعل؟ <a href="/pages/login.html">تسجيل الدخول </a></p>
+            </div>
+        </div>
+        <div class="welcome-text">
+            <span>دعونا</span><br>
+            <span>نبدأ!</span>
+        </div>
+    </div>
+</body>
+</html>

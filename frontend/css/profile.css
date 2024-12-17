@@ -1,0 +1,134 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    background-color: #F8F8F8;
+    text-align: center;
+}
+
+
+
+/* Profile Section */
+.profile .wallpaper {
+    position: relative;
+    background-image: url('../images/photo_2024-11-30_20-51-34.jpg');
+    background-size: cover;
+    height: 400px;
+}
+.profile .wallpaper .profile-details {
+    position: absolute;
+    bottom: -220px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.profile .profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 0px solid white;
+}
+.profile .username {
+    color: black;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.profile .quotes-count {
+    color: black;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.profile-actions {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.action-btn {
+    background-color: #9B6644;
+    color: white;
+    border: none;
+    width: 165px;
+    height: 38px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Cairo';
+}
+
+.action-btn a{
+    color: white;
+    text-decoration: none;
+}
+/* Quotes Section */
+.quotes{
+    margin-top: 260px;
+}
+.quotes .tabs {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0px 0px 0px ;
+}
+.tabs .tab {
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+}
+.tabs .tab:hover {
+    border-bottom: 3px solid #9B6644;
+}
+.divider {
+    border: 1px solid #9b65446f;
+    margin: 10px 0;
+}
+.quote-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    
+    margin: 0px 60px;
+}
+.quote-box {
+    background-color: #D9AE84;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.icons {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.icons .heart-icon img,
+.icons .copy-icon img,
+.icons .like-icon img {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-column {
+        text-align: center;
+    }
+}
+
+.active-tab {
+    font-weight: bold;
+    color: #9B6644;
+    border-bottom: 3px solid #9B6644;
+}

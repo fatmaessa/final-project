@@ -1,0 +1,113 @@
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>إقتباس</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&amp;family=Vollkorn:wght@700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="/css/profileEdit.css">
+    <link rel="stylesheet" href="/css/public.css">
+
+</head>
+
+<body class="bg-white text-gray-800">
+    <!-- First Part -->
+    <header class="header">
+        <div class="container">
+            <a href="home.html">
+                <div class="logo mb-2">إقتبس</div>
+            </a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="home.html">الصفحة الرئيسية</a></li>
+                    <li><a href="/pages/quotes.html">الإقتباسات</a></li>
+                    <li><a href="/pages/authorsAndBooks.html">المؤلفين و الكتب</a></li>
+                </ul>
+            </nav>
+            <div class="add-quote">
+                <button class="btn h-10">
+                    <a href="addQuote.html">إضافة اقتباس</a>
+                    <i class="icon h-6"><img src="../images/Vector.png"></i>
+                </button>
+                <a href="/pages/profile.html"><img src="../images/flower-8891023_1280.jpg" alt="Profile"
+                        class="profile-small"></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="p-8 main_section">
+        <div class="max-w-xl mx-auto text-right">
+            <div class="mb-6">
+                <label class="block mb-2" for="username">اسم المستخدم</label>
+                <input class="w-full p-3 border rounded-full custom-input" id="username" placeholder="اسم المستخدم"
+                    type="text" />
+            </div>
+            <div class="mb-6">
+                <label class="block mb-2" for="cover-photo">صورة الغلاف للصفحة الشخصية</label>
+                <div class="flex items-center">
+                    <input class="w-full p-3 border rounded-full custom-input" id="cover-photo"
+                        placeholder="quote.jpg\برمجيات\تطبيق الإقتباسات\التصميم" type="file" />
+                    
+                </div>
+            </div>
+            <div class="mb-6">
+                <label class="block mb-2" for="profile-photo">الصورة الشخصية</label>
+                <div class="flex items-center">
+                    <input class="w-full p-3 border rounded-full custom-input" id="profile-photo"
+                        placeholder="quote.jpg\برمجيات\تطبيق الإقتباسات\التصميم" type="file" />
+                    
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button class="bg-[#9B6644] text-white px-8 py-3 rounded-full"><a href="profile.html" style="text-decoration: none; color:white ;">حفظ</a></button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- First Column -->
+            <div class="footer-column">
+                <h3 class="footer-logo">إقتبس</h3>
+                <p class="footer-description">
+                    <br> موقع يهدف إلى إثراء حياتك اليومية بكلمات
+                    <br>ملهمة واقتباسات منوعة من ثقافات مختلفة
+                    <br>نساعدك على استكشاف عالم من الحكمة و
+                    <br>الأفكار العميقة لتشجيعك على القراءة
+                    <br>والتفكير الإيجابي.
+                </p>
+                <div class="footer-social">
+                    <img src="../images/insta.png" alt="Facebook" class="social-icon">
+                    <img src="../images/face.png" alt="Twitter" class="social-icon">
+                    <img src="../images/linkedin.png" alt="Instagram" class="social-icon">
+                </div>
+            </div>
+
+            <!-- Second Column -->
+            <div class="footer-column">
+                <ul class="footer-links">
+                    <li><a href="#">الإقتباسات المميزة</a></li>
+                    <li><a href="#">الأقسام الشائعة</a></li>
+                    <li><a href="#">أضف اقتباسك</a></li>
+                    <li><a href="#">انضم الينا</a></li>
+                    <li><a href="#">سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+
+            <!-- Third Column -->
+            <div class="footer-column">
+                <h3 class="footer-contact-title"><span>تواصل معنا </span>و احصل على اقتباسك على البريد الخاص بك</h3>
+                <div class="email-subscription">
+                    <input type="email" placeholder="e-mail" class="email-input">
+                    <div class="email-submit">
+                        <img src="../images/arrow.png" alt="Send" class="arrow-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

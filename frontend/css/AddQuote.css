@@ -1,0 +1,82 @@
+/* General Styles */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+
+  font-family: "valaxb", sans-serif;
+  background-color: #ffffff;
+}
+
+.heading1{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 660px;
+  color: #9B6644; /* إضافة اقتباس */
+}
+
+/* Navigation Bar */
+
+/* Form Section */
+form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 60%; /* Less than half */
+  margin: 0 auto; /* Center form on the page */
+}
+
+/* Form Inputs */
+form select,
+form textarea {
+  color: rgb(42, 42, 42); /* Light gray for placeholder text */
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 10px rgba(155, 102, 68, 0.15);
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-family: 'cairo';
+}
+
+/* Button Styles */
+form .btn {
+  background-color: #6c3d20;
+  border: none;
+  width: 150px; /* Less than half */
+  display: block; /* Make it a block element */
+  margin: 1.5rem auto; /* Center the button */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'cairo';
+  font-size: 15px;
+}
+
+form .btn:hover {
+  background-color: #e0dcda;
+  color: #6c3d20;
+}
+.form-text{
+  color: red;
+}
+/* Footer */
+
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+  footer .row {
+    flex-direction: column; /* Stack the columns on small screens */
+    text-align: center;
+  }
+
+  footer .footer-col {
+    width: 100%; /* Ensure each column takes full width */
+    margin-bottom: 20px; /* Add some space between sections */
+  }
+}

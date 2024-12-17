@@ -1,0 +1,214 @@
+*{
+    font-family: "Cairo", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'VLAX B';
+    src:
+         url('/webfonts/alfont_com_ArbFONTS-VLAX-01.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* continer1 */
+.conteiner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 80vh;
+    width: 100%;
+    /* background: #574444; */
+    background-image: url("/images/hero1.png");
+    background-size: cover;
+    color: #FAEDCD;
+}
+
+.conteiner1 p{
+
+    display: flex;
+    font-size: 70px;
+    justify-content: center;
+    font-family: "Blaka Ink", system-ui;
+    color: #FAEDCD;
+    font-family: 'VLAX B';
+}
+.conteiner1 span{
+    display: flex;
+    justify-content: center;
+    font-family: "Cairo", sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.conteiner1 button{
+    display: flex;
+    padding: 10px 5px;
+    font-size: 17px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: #FAEDCD solid 2px;
+    border-radius: 15px;
+    width: 200px;
+    color: #FAEDCD;
+    padding: 5px 9px;
+    font-size: 20px;
+}
+.conteiner1 button a{
+    text-decoration: none;
+    color: white;
+}
+.conteiner1 button:hover{
+    cursor: pointer;
+    background-color: rgb(155, 102, 68);
+    color: white;
+}
+
+
+/* .conteiner2 */
+.conteiner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: rgb(216, 173, 131);
+    overflow: auto;
+}
+.conteiner2 span{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    padding: 8px 0;
+    font-family: "Cairo", sans-serif;
+}
+ .conteiner2 .component{
+    float: right;
+    margin-right: 20px;
+ }
+
+ .conteiner2 .title_line{
+    width: 100px;
+    height: 4px;
+    background-color: #9B6644;
+    margin-bottom: 10px;
+    margin-top: -10px;
+ }
+
+/* .conteiner3 */
+.pp{
+    font-size: 35px;
+    color: #9B6644;
+    margin-right: 40px;
+    font-family: "Cairo", sans-serif;
+}
+.title_line3{
+    width: 200px;
+    height: 5px;
+    background-color: #9B6644;
+    margin-right: 45px;
+}
+.continer3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+   
+
+}
+.continer3 div{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px;
+    padding: 10px 15 px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* background-color: #D9AE84; */
+    margin: 0 20px 20px;
+    border: 4px solid #D9AE84;
+    color:#9B6644;
+    font-family: "Cairo", sans-serif;
+    border-radius: 15px;
+}
+.continer3 div:hover
+{
+    background-color: #9B6644;
+    color:white;
+    cursor: pointer;
+}
+.continer3 div p{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-family: "Cairo", sans-serif;
+    font-weight: bold;
+}
+.continer3 div .p{
+    margin-top: -30px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+    padding: 0 10px 10px 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+/* continer4 */
+.continer4{
+    background-color:#D9AE84;
+    display: flex;
+    font-size: 19px;
+    font-family: "Cairo", sans-serif;
+    color: white;
+    /* flex-direction: column; */
+}
+.continer4 .left{
+    padding: 5px 150px 20px 100px;
+    font-size: 19px;
+    font-family: "Cairo", sans-serif;
+    color: white;
+    width: 280px;
+    line-height: 1.4;
+}
+
+.continer4 .center{
+
+    font-size: 19px;
+    font-family: "Cairo", sans-serif;
+    color: white;
+    padding: 80px 0 0 30px;
+    width: 150px;
+}
+.continer4 .right{
+    font-size: 19px;
+    font-family: "Cairo", sans-serif;
+    color: white;
+    padding: 80px 100px 20px 100px;
+    width: 390px;
+}
+.continer4 .right b{
+    color: #9B6644;
+}
+.continer4 .right input{
+    border-radius: 20px;
+    border-color: transparent;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px;
+}

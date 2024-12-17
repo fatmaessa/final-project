@@ -1,0 +1,1 @@
+fetch("https://localhost:7000/api/Quote").then(res=>res.json()).then(console.log(res))

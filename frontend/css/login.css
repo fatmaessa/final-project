@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qahiri&display=swap');
+
+
+body{
+  font-family: 'Cairo';
+}
+.home{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/background.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  width: 80%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.caption{
+  width: 50%;
+  text-align: start;
+  font-size: 160px;
+  color: #9b6644;
+ 
+
+}
+.caption h1{
+  font-size: 160px;
+  font-weight: 400;
+}
+.caption span{
+font-size: 160px;
+font-weight: 400;
+}
+
+/* Form style */
+
+.form{
+  width: 40%;
+  background-color: #fff;
+  height: 90%;
+  border-radius: 30px;
+}
+h2{
+  color: #9b6644;
+}
+h3{
+  font-family: 'VLAX B';
+  font-weight: 400;
+  font-style: normal;
+  color: #9b6644;
+}
+.form .container{
+  display: block;
+  margin: 40px;
+}
+.form-caption h3{
+    font-size: 50px;
+    font-weight: 500;
+}
+.form-caption h2{
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.form-caption p{
+    font-size: 15px;
+    font-weight: 400;
+}
+form{
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+input{
+  border-radius: 25px !important;
+}
+a{
+  color:#d9ae84 ;
+  text-decoration: none;
+}
+.box{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.remember-me{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+}
+button{
+  background-color: #9b6644;
+  color: #fff;
+  border: 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+}
+.new-account a{
+  font-size: 14px;
+  color: #d9ae84 !important;
+  cursor: pointer;
+}
+.new-account h5{
+  font-size: 14px;
+  font-weight: 400;
+}
+.social-icons p{
+  position: relative;
+}
+.social-icons p::after{
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  bottom: 40%;
+  right: 0;
+  transform: translate(-50%);
+}
+.social-icons p::before{
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  bottom: 40%;
+  left:  20%;
+  transform: translate(-50%);
+}
+.icons{
+  font-size: 25px;
+  color: #d9ae84;
+  margin-right: auto;
+  margin-left: auto;
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+h6{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width:1024px){
+
+  .container{
+    width: 90%;
+    height: 100%;
+  }
+  .caption{
+    width: 50%;
+    text-align: center;
+    color: #9b6644;
+    text-align: end;
+  
+  }
+  .caption h1{
+    font-size: 130px;
+    font-weight: 500;
+  }
+  .caption span{
+  font-size: 130px;
+  font-weight: 500;
+  }
+  
+  /* Form style */
+  
+  .form{
+    width: 50%;
+    height: auto;
+  }
+  .form .container{
+    display: block;
+    margin: 20px;
+  }
+  .form-caption h3{
+      font-size: 40px;
+      font-weight: 400;
+  }
+  .form-caption h2{
+      font-size: 40px;
+      font-weight: 700;
+  }
+  .form-caption p{
+      font-size: 10px;
+  }
+  form{
+    height: 50vh;
+  }
+  .remember-me{
+    width: 20%;
+  }
+  button{
+    width: 100%;
+    height: 40px;
+  }
+  .new-account a{
+    font-size: 12px;
+  }
+  .new-account h5{
+    font-size: 12px;
+  }
+  .social-icons p{
+    position: relative;
+  }
+  .social-icons p::after{
+    width: 90px;
+  }
+  .social-icons p::before{
+    width: 90px;
+  }
+  .icons{
+    font-size: 20px;
+  }
+  h6{
+    font-size: 14px;
+    font-weight: 400;
+    
+  }
+}
+@media (max-width:768px){
+
+  .container{
+    width: 90%;
+    height: 100%;
+  }
+  .caption{
+    width: 50%;
+  }
+  .caption h1{
+    font-size: 130px;
+  }
+  .caption span{
+  font-size: 130px;
+  }
+  
+  /* Form style */
+  
+  .form{
+    width: 50%;
+    height: auto;
+  }
+  .form .container{
+    margin: 15px;
+  }
+  .form-caption h3{
+      font-size: 35px;
+      font-weight: 400;
+  }
+  .form-caption h2{
+      font-size: 35px;
+      font-weight: 700;
+  }
+  .form-caption p{
+      font-size: 9px;
+  }
+  form{
+    height: 50vh;
+  }
+  .remember-me{
+    width: 22%;
+  }
+  button{
+    width: 100%;
+    height: 40px;
+  }
+  .new-account a{
+    font-size: 12px;
+  }
+  .new-account h5{
+    font-size: 12px;
+  }
+  .social-icons p{
+    position: relative;
+  }
+  .social-icons p::after{
+    width: 55px;
+  }
+  .social-icons p::before{
+    width: 55px;
+  }
+  .icons{
+    font-size: 20px;
+  }
+  h6{
+    font-size: 12px;
+  }
+}
+@media (max-width:425px){
+
+  .home{
+    height: auto;
+  }
+
+  .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    
+  }
+  .caption{
+    width: 70%;
+    text-align: center;
+  }
+  .caption h1{
+    font-size: 100px;
+  }
+  .caption span{
+  font-size: 100px;
+  }
+  
+  /* Form style */
+  
+  .form{
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .form .container{
+    margin: 5px;
+  }
+  .form-caption h3{
+      font-size: 35px;
+      font-weight: 400;
+  }
+  .form-caption h2{
+      font-size: 35px;
+      font-weight: 700;
+  }
+  .form-caption p{
+      font-size: 10px;
+  }
+  form{
+    height: 50vh;
+  }
+  .remember-me{
+    width: 17%;
+  }
+  button{
+    width: 100%;
+    height: 35px;
+  }
+  .new-account a{
+    font-size: 12px;
+  }
+  .new-account h5{
+    font-size: 12px;
+  }
+  .social-icons p{
+    position: relative;
+  }
+  .social-icons p::after{
+    width: 75px;
+  }
+  .social-icons p::before{
+    width: 75px;
+  }
+  .icons{
+    font-size: 20px;
+    margin-bottom: 5%;
+  }
+  h6{
+    font-size: 12px;
+  }
+}
+@media (max-width:375px){
+  /* Form style */
+  button{
+    height: 30px;
+  }
+  .social-icons p{
+    position: relative;
+    font-size: 14px;
+  }
+  .social-icons p::after{
+    width: 60px;
+  }
+  .social-icons p::before{
+    width: 60px;
+  }
+}
+@media (max-width:320px){
+  /* Form style */
+  .form-caption h3{
+    font-size: 30px;
+}
+.form-caption h2{
+    font-size: 30px;
+}
+  button{
+    height: 30px;
+  }
+  .social-icons p{
+    position: relative;
+    font-size: 14px;
+  }
+  .social-icons p::after{
+    width: 50px;
+  }
+  .social-icons p::before{
+    width: 50px;
+  }
+  .remember-me{
+    width: 22%;
+  }
+  .box a{
+    font-size: 12px;
+  }
+}
